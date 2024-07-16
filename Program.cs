@@ -23,6 +23,9 @@ class MathGame
 
             String res = Console.ReadLine();
 
+            // if response is null, set to blank line
+            res ??= "";
+
             switch (res.ToUpper())
             {
                 case "V":
